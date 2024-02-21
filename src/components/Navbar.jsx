@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav className="z-[100]  lg:bg-transparent mt-2 sm:mt-0 ">
-        <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-tarnsparent h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
+        <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-black h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
             {/* <Link
               to="/"
