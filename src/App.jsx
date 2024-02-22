@@ -3,6 +3,7 @@ import About from "sections/About";
 // import FeaturedOn from "sections/Partners";
 import Hero from "sections/Hero";
 import JoinCommunity from "sections/JoinCommunity";
+import Product from "sections/Product";
 // import Product from "sections/Product";
 import Roadmap from "sections/Roadmap";
 // import Tokenomics from "sections/Tokenomics";
@@ -36,6 +37,8 @@ function App() {
         <div className="" id="about">
           <About />
         </div>
+        <Roadmap/>
+        <Product/>
  
       </main>
 

@@ -37,12 +37,12 @@ function Roadmap() {
       />
 
       <div className="container-wrapper mb-14">
-        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR Perks</Title>
+        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR ROADMAP</Title>
 
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#ffeeb9] py-5 px-5   rounded-md w-full sm:w-[55%] mx-auto h-full">
+          <div className="bg-[#ffeeb9] py-5 px-5   rounded-md w-full mx-auto h-full">
             <div>
            
               <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
@@ -55,7 +55,7 @@ function Roadmap() {
            
           </div>
 
-          {/* <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
+          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
             <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 2</h1>
               <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
@@ -68,8 +68,8 @@ function Roadmap() {
             <p  className=" text-base font-popins font-normal lh-1_7">• Debut on Uniswap.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Unveil the Bongo Cat Music Platform.</p>
 
-          </div> */}
-          {/* <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
+          </div>
+          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
           <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
               <h1 className="font-dream text-[#8431d6] text-center text-lg mb-2">
@@ -82,7 +82,7 @@ function Roadmap() {
             <p  className=" text-base font-popins font-normal lh-1_7">• Open Bongo Staking & Farming stage.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Share ad revenue—because every cat loves treats!</p>
 
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
