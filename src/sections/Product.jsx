@@ -13,7 +13,7 @@ function Product() {
             data-aos-duration="1500"
             data-aos-easing="ease-in-sine"
           >
-            Bongo cat features
+           Our Products
           </Title>
         </div>
 
