@@ -4,6 +4,7 @@ import BelowMark from "sections/BelowMark";
 // import FeaturedOn from "sections/Partners";
 import Hero from "sections/Hero";
 import JoinCommunity from "sections/JoinCommunity";
+import NFTs from "sections/NFTs";
 import Product from "sections/Product";
 // import Product from "sections/Product";
 import Roadmap from "sections/Roadmap";
@@ -47,6 +48,10 @@ function App() {
         <Product/>
 
         <Tokenomics/>
+        <div className=" mt-3">
+          <NFTs/>
+
+        </div>
  
       </main>
 

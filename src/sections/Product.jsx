@@ -33,7 +33,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo AI Music <br /> Generator
+              SolSon  Staking
             </h3>
           </div>
           <div className=" text-center">
@@ -43,7 +43,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo Yield  <br />Farming
+            further utility
             </h3>
           </div>
 
@@ -54,7 +54,7 @@ function Product() {
               className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
-              Bongo Concerts
+             SolSon NFT
             </h3>
           </div>
       
