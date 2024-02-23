@@ -4,7 +4,7 @@ function Tokenomics() {
   return (
     <section  id="token" className="container-wrapper bg-[#c0a736] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10">
       <Title
-        className="text-[#8431d6] mb-10 text-center"
+        className="text-[#8431d6] mb-4 text-center"
         data-aos="fade-up"
         data-aos-offset="300"
         data-aos-duration="1500"
@@ -12,6 +12,9 @@ function Tokenomics() {
       >
         Tokenomics
       </Title>
+      <div>
+        <p className=" text-center mb-2  font-bold text-base sm:text-lg">Contract : B3xyyPxjn7okk7Gs5caZ1xNHdAPRDeJhBDuR25Buv4kV</p>
+      </div>
       {/* <div className=" flex flex-col sm:flex-row items-center justify-center w-full gap-8">
      <div className="bg-[#c6f2ff] my-5 py-5 px-3 rounded-md w-full white-shadow text-center font-semibold">
             <p className=" uppercase">Buy Tax = 0%</p>
