@@ -29,7 +29,7 @@ function Tokenomics() {
       <div className="grid sm:grid-cols-2 gap-10 items-center">
         <img
           src="/images/about/img8.jpeg"
-          className="w-full rounded-full border-4"
+          className="w-full rounded-full border-4  white-shadow"
           alt=""
           data-aos="fade-right"
           data-aos-offset="300"
