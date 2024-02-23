@@ -71,12 +71,12 @@ function Hero() {
         </div>
          
         <div className="hidden sm:flex items-center gap-5 justify-center lg:justify-end mt-4">
-             <a href="https://t.me/solson404" target="_blank">
+             <a href="https://t.me/solsonso" target="_blank">
               <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
              </a>
           
 
-             <a href="https://twitter.com/Solson404" target="_blank">
+             <a href="https://x.com/solson404/" target="_blank">
               <img src="X.png" alt="" className="w-auto h-[55px]" />
              </a>
             </div>

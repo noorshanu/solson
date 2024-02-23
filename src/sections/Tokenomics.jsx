@@ -13,7 +13,7 @@ function Tokenomics() {
         Tokenomics
       </Title>
       <div>
-        <p className=" text-center mb-2  font-bold text-base sm:text-lg">Contract : B3xyyPxjn7okk7Gs5caZ1xNHdAPRDeJhBDuR25Buv4kV</p>
+        <p className=" text-center mb-2  font-bold text-base sm:text-lg">Contract : ujUyrNw7m1wetcztdzdqTXz6jWg41Afw2QgHw9CPov8</p>
       </div>
       {/* <div className=" flex flex-col sm:flex-row items-center justify-center w-full gap-8">
      <div className="bg-[#c6f2ff] my-5 py-5 px-3 rounded-md w-full white-shadow text-center font-semibold">
