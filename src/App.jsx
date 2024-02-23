@@ -48,6 +48,12 @@ function App() {
         <Product/>
 
         <Tokenomics/>
+        <div className=" flex justify-center items-center py-4 gap-4">
+          <a href="https://birdeye.so/" target="_blank"><img src="images/bird.png" alt="" className=" bg-black rounded-xl px-2 h-[80px]" /></a>
+          <a href="https://raydium.io/" target="_blank"><img src="images/rayduim.svg" alt="" className=" bg-black rounded-xl px-4  py-3 h-[80px]" /></a>
+
+
+        </div>
         <div className=" mt-3">
           <NFTs/>
 

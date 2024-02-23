@@ -14,29 +14,29 @@ function Navbar() {
       <nav className="z-[100]  lg:bg-transparent mt-2 sm:mt-0 ">
         <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-black h-14 lg:h-[5rem] 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
-            <Link
-              to="/"
+            <a
+              href="/"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm xl:text-base uppercase"
             >
               BUY NOW
-            </Link>
-            <Link
-              to="#"
+            </a>
+            <a
+              href="#road"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm xl:text-base uppercase"
             >
-              WHITEPAPER
-            </Link>
+             Roadmap
+            </a>
           </div>
 
-          <div>
+          <a href="/">
             <img
               src="/images/logo.png"
               className="h-[70px] sm:h-auto w-auto mx-auto"
               alt=""
             />
-          </div>
+          </a>
 
           <div
             className=" flex lg:hidden"
@@ -56,20 +56,20 @@ function Navbar() {
           </div>
 
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
-            <Link
-              to="roadmap"
+            <a
+              href="#token"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm xl:text-base uppercase"
             >
-              ROADMAP
-            </Link>
-            <Link
-              to="tokenomics"
+               TOKENOMICS
+            </a>
+            <a
+              href="#prod"
               onClick={() => setSidebarOpen(false)}
-              className="cursor-pointer text-sm xl:text-base"
+              className="cursor-pointer text-sm xl:text-base uppercase"
             >
-              TOKENOMICS
-            </Link>
+           Products
+            </a>
           </div>
         </div>
       </nav>

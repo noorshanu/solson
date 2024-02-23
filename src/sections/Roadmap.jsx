@@ -29,7 +29,7 @@ const Grid = ({ direction = "left" }) => {
 
 function Roadmap() {
   return (
-    <section className="relative z-10 ">
+    <section className="relative z-10 " id="road">
     
 
       <div className="container-wrapper mb-14">

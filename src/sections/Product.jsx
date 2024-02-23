@@ -3,7 +3,7 @@ import React from "react";
 
 function Product() {
   return (
-    <section>
+    <section id="prod">
       <div className="container-wrapper">
         <div className="text-center">
           <Title

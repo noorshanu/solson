@@ -2,7 +2,7 @@ import Title from "components/Title";
 
 function Tokenomics() {
   return (
-    <section className="container-wrapper bg-[#c0a736] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10">
+    <section  id="token" className="container-wrapper bg-[#c0a736] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10">
       <Title
         className="text-[#8431d6] mb-10 text-center"
         data-aos="fade-up"
@@ -41,18 +41,22 @@ function Tokenomics() {
           data-aos-easing="ease-in-sine"
         >
           <div className="bg-[#c6f2ff] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
-            <p className=" uppercase">Supply = 45%</p>
+            <p className=" uppercase">Total Supply = 1,000,000,000,000</p>
           </div>
           <div className="bg-[#dbffc6] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
-            <p className=" uppercase">Ticket = 22.5%</p>
+            <p className=" uppercase">Symbol = $solson</p>
           </div>
           <div className="bg-[#e9cdff] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
-            <p className=" uppercase">Tax = 8%</p>
+            <p className=" uppercase">Tax = 0%</p>
           </div>
 
           <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
             <p className=" uppercase">Revoke mint = 24%</p>
           </div>
+          <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
+            <p className=" uppercase">Revoke Authority</p>
+          </div>
+          
         </div>
       </div>
     </section>
