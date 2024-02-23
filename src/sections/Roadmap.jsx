@@ -30,58 +30,94 @@ const Grid = ({ direction = "left" }) => {
 function Roadmap() {
   return (
     <section className="relative z-10 ">
-      <img
-        src="images/purple.png"
-        alt=""
-        className=" absolute -top-[50%] right-0 -z-10 h-[600px] hidden sm:block"
-      />
+    
 
       <div className="container-wrapper mb-14">
-        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR ROADMAP</Title>
+        <Title className="text-center text-[#8431d6] mb-10 pt-8">
+          OUR ROADMAP
+        </Title>
 
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#ffeeb9] py-5 px-5   rounded-md w-full mx-auto h-full">
+          <div className="bg-[#ffeeb9] py-5 px-5   rounded-md w-full mx-auto h-full sm:h-[300px] ">
             <div>
-           
-              <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
+              <h1 className="font-dream text-[#8431d6]  text-center  text-lg mb-1">
+                Phase 1
+              </h1>
+              {/* <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
                 The SolSon Beat Begins
-              </h1>
+              </h1> */}
             </div>
-            <p className=" text-base font-popins font-normal lh-1_7">• A private solana themed Yatch party for holders after reaching 50m .</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Burj Khalifa marketing after reaching 100m m.cal.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Special Solson lambo gang after reaching 500m m.cap.</p>
-           
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • PREPARE BRANDING CREATE SOCIALS
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • LAUNCH TOKEN.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • BUILD TELEGRAM COMMUNITY.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • DEXTOOLS/ DEXSCREENER/ BIRDSEYE SOCIALS UPDATES.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • TRENDING/ X “TWITTER” RAIDS.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • BLUE.TICK VERIFIED X “TWITTER”.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • 1000 HOLDERS.
+            </p>
           </div>
 
-          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
-          <div>
-            <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 2</h1>
-              <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
-               The Bongo Band Assembles
+          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full sm:h-[300px]">
+            <div>
+              <h1 className="font-dream text-[#8431d6]  text-center  text-lg mb-1">
+                Phase 2
               </h1>
+              {/* <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
+                The Bongo Band Assembles
+              </h1> */}
             </div>
-            <p className=" text-base font-popins font-normal lh-1_7">• Gather our cat community.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Host a Pinksale Fairlaunch fiesta.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Amplify the Bongo beat with massive marketing.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Debut on Uniswap.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Unveil the Bongo Cat Music Platform.</p>
-
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Expanding Community Reach.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Implementing Global Marketing Strategies.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Introducing Staking Platform .
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Establishing Dapp Partnerships.
+            </p>
           </div>
-          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
-          <div>
-          <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
-              <h1 className="font-dream text-[#8431d6] text-center text-lg mb-2">
-              Bongo's Worldwide Tour
+          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full sm:h-[300px]">
+            <div>
+              <h1 className="font-dream text-[#8431d6]  text-center  text-lg mb-1">
+                Phase 3
               </h1>
+              {/* <h1 className="font-dream text-[#8431d6] text-center text-lg mb-2">
+                Bongo's Worldwide Tour
+              </h1> */}
             </div>
-            <p className=" text-base font-popins font-normal lh-1_7">• Secure our first CEX gig.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Boost the beats to attract more fans.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Open Bongo Staking & Farming stage.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Share ad revenue—because every cat loves treats!</p>
-
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Nft launch .
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Pursuing New DEX & CEX Listings.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • Executing Dapp Marketing Strategies.
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • partnerships .
+            </p>
+            <p className=" text-base font-popins font-normal lh-1_7">
+              • .further development{" "}
+            </p>
           </div>
         </div>
       </div>

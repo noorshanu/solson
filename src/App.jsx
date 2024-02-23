@@ -1,11 +1,13 @@
 import Navbar from "components/Navbar";
 import About from "sections/About";
+import BelowMark from "sections/BelowMark";
 // import FeaturedOn from "sections/Partners";
 import Hero from "sections/Hero";
 import JoinCommunity from "sections/JoinCommunity";
 import Product from "sections/Product";
 // import Product from "sections/Product";
 import Roadmap from "sections/Roadmap";
+import Tokenomics from "sections/Tokenomics";
 // import Tokenomics from "sections/Tokenomics";
 
 function App() {
@@ -32,6 +34,10 @@ function App() {
         </section> */}
             <Hero />
           </div>
+          <div className=" py-2">
+            <BelowMark/>
+
+          </div>
         </div>
 
         <div className="" id="about">
@@ -39,6 +45,8 @@ function App() {
         </div>
         <Roadmap/>
         <Product/>
+
+        <Tokenomics/>
  
       </main>
 

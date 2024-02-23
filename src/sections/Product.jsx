@@ -7,7 +7,7 @@ function Product() {
       <div className="container-wrapper">
         <div className="text-center">
           <Title
-            className="text-black"
+            className="text-[#8431d6]"
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-duration="1500"
@@ -24,19 +24,13 @@ function Product() {
           data-aos-duration="1500"
           data-aos-easing="ease-in-sine"
         >
-          <div>
-            <img
-              src="images/cream.png"
-              alt=""
-              className=" -top-[120%] absolute -left-[40%] -z-10 w-auto h-12 sm:h-[800px]"
-            />
-          </div>
+     
 
           <div className=" text-center">
             <img
-              src="images/1.png"
+              src="images/about/img3.jpeg"
               alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
+              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
               Bongo AI Music <br /> Generator
@@ -44,9 +38,9 @@ function Product() {
           </div>
           <div className=" text-center">
             <img
-              src="images/2.png"
+              src="images/about/img4.jpeg"
               alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
+              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
               Bongo Yield  <br />Farming
@@ -55,25 +49,15 @@ function Product() {
 
           <div className=" text-center">
             <img
-              src="images/3.png"
+              src="images/about/img6.jpeg"
               alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
+              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto rounded-lg border-4"
             />
             <h3 className="font-dream text-lg py-4 ">
               Bongo Concerts
             </h3>
           </div>
-          <div className=" text-center">
-            <img
-              src="images/4.png"
-              alt=""
-              className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"
-            />
-            <h3 className="font-dream text-lg py-4 ">
-              Bongo Music NFTs <br />
-              Trading Platform
-            </h3>
-          </div>
+      
         </div>
         <div className="relative flex justify-center ml-0 sm:ml-14">
           <img
