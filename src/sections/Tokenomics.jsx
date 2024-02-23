@@ -54,7 +54,7 @@ function Tokenomics() {
           </div>
 
           <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
-            <p className=" uppercase">Revoke mint = 24%</p>
+            <p className=" uppercase">Revoke mint </p>
           </div>
           <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center font-semibold">
             <p className=" uppercase">Revoke Authority</p>
