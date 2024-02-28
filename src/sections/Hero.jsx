@@ -53,7 +53,7 @@ function Hero() {
      
         </div>
         <div className=" text-center mt-4 sm:mt-0">
-          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2  max-w-4xl mx-auto"> SolSon (SOLS) - Solana's True child in Simpson Memes! </h1>
+          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2  max-w-4xl mx-auto"> SolSon  - Solana's True child in Simpson Memes! </h1>
           <p className=" max-w-3xl  text-black text-xl mx-auto">
           SolSon, the child of Solana, brings Simpson characters to life in the blockchain world, creating a unique and playful vibe. Solson will be solana’s community one stop entry into lambo gang.
           </p>
@@ -61,10 +61,19 @@ function Hero() {
         <div className=" hidden   sm:flex  justify-center items-center gap-6 mt-7 sm:mt-8">
           <div className=" relative">
             <a
-              href="/"
+              href="https://raydium.io/" target="_blank"
               className="  btn-main  font-bold text-sm sm:text-xl rounded-full px-12 py-2"
             >
             Trade
+            </a>
+          </div>
+
+          <div className=" relative">
+            <a
+           href="https://www.dextools.io/app/en/solana/pair-explorer/RE8gJW69vmdzZMDTEY1C6KAArFx89WVgtSRtjvWp7SZ?t=1709103392432" target="_blank"
+              className=" "
+            >
+            <img src="images/dextool.png" alt="" className="h-[45px] btn-main   font-bold text-sm sm:text-xl rounded-full px-8 py-2" />
             </a>
           </div>
      
@@ -79,6 +88,7 @@ function Hero() {
              <a href="https://x.com/solson404/" target="_blank">
               <img src="X.png" alt="" className="w-auto h-[55px]" />
              </a>
+          
             </div>
       </div>
     </section>
